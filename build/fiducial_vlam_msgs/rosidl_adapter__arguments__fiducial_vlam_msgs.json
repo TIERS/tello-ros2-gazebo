@@ -1,8 +1,0 @@
-{
-  "package_name": "fiducial_vlam_msgs",
-  "non_idl_tuples": [
-    "/home/sebastian/tello_ros_ws/src/fiducial_vlam/fiducial_vlam_msgs:msg/Map.msg",
-    "/home/sebastian/tello_ros_ws/src/fiducial_vlam/fiducial_vlam_msgs:msg/Observation.msg",
-    "/home/sebastian/tello_ros_ws/src/fiducial_vlam/fiducial_vlam_msgs:msg/Observations.msg"
-  ]
-}

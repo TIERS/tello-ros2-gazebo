@@ -1,9 +1,0 @@
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/install/strip.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/install/local.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/install.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/list_install_components.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/rebuild_cache.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/edit_cache.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/test.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/ros2_shared_uninstall.dir
-/home/sebastian/tello_ros_ws/src/build/ros2_shared/CMakeFiles/uninstall.dir

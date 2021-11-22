@@ -1,4 +1,0 @@
-source;share/tello_msgs/local_setup.bash
-source;share/tello_msgs/local_setup.dsv
-source;share/tello_msgs/local_setup.sh
-source;share/tello_msgs/local_setup.zsh
