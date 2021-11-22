@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fiducial_vlam_msgs/msg/Observation.msg
+// generated code does not contain a copyright notice
+
+
+module fiducial_vlam_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " An observation of a marker.")
+    struct Observation {
+      int32 id;
+
+      @verbatim (language="comment", text=
+        " vertices")
+      double x0;
+
+      double y0;
+
+      double x1;
+
+      double y1;
+
+      double x2;
+
+      double y2;
+
+      double x3;
+
+      double y3;
+    };
+  };
+};

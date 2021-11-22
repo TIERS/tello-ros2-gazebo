@@ -1,0 +1,11 @@
+source;share/tello_driver/hook/cmake_prefix_path.ps1
+source;share/tello_driver/hook/cmake_prefix_path.dsv
+source;share/tello_driver/hook/cmake_prefix_path.sh
+source;share/tello_driver/hook/ld_library_path_lib.ps1
+source;share/tello_driver/hook/ld_library_path_lib.dsv
+source;share/tello_driver/hook/ld_library_path_lib.sh
+source;share/tello_driver/local_setup.bash
+source;share/tello_driver/local_setup.dsv
+source;share/tello_driver/local_setup.ps1
+source;share/tello_driver/local_setup.sh
+source;share/tello_driver/local_setup.zsh

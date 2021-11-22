@@ -1,0 +1,150 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV version 4.2.0
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found class_loader: 2.0.2 (/opt/ros/foxy/share/class_loader/cmake)
+-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found fiducial_vlam_msgs: 0.1.0 (/home/sebastian/tello_ros_ws/src/install/fiducial_vlam_msgs/share/fiducial_vlam_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found ros2_shared: 0.1.0 (/home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake)
+-- Found tf2_msgs: 0.13.11 (/opt/ros/foxy/share/tf2_msgs/cmake)
+-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found yaml_cpp_vendor: 7.0.2 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sebastian/tello_ros_ws/src/build/fiducial_vlam
+[35m[1mScanning dependencies of target vloc_main[0m
+[35m[1mScanning dependencies of target vmap_main[0m
+[35m[1mScanning dependencies of target vmap_node[0m
+[35m[1mScanning dependencies of target vloc_node[0m
+[  3%] [32mBuilding CXX object CMakeFiles/vloc_main.dir/src/vloc_main.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/vloc_main.dir/src/convert_util.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/vloc_node.dir/src/fiducial_math.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/vloc_main.dir/src/fiducial_math.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/vloc_node.dir/src/vloc_context.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/vmap_main.dir/src/vmap_main.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/vloc_node.dir/src/convert_util.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/vloc_main.dir/src/transform_with_covariance.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/vloc_main.dir/src/map.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/vloc_node.dir/src/transform_with_covariance.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/vloc_node.dir/src/map.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/vloc_node.dir/src/vloc_node.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/vmap_main.dir/src/convert_util.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vmap_main.dir/src/map.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/vmap_main.dir/src/fiducial_math.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/vmap_node.dir/src/convert_util.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/vmap_main.dir/src/transform_with_covariance.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/vloc_main.dir/src/vloc_context.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/vmap_node.dir/src/fiducial_math.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/vloc_main.dir/src/vloc_node.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/vmap_node.dir/src/map.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/vmap_main.dir/src/vmap_context.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/vmap_main.dir/src/vmap_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/vmap_node.dir/src/transform_with_covariance.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/vmap_node.dir/src/vmap_context.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/vmap_node.dir/src/vmap_main.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/vmap_node.dir/src/vmap_node.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library libvmap_node.so[0m
+[ 93%] [32m[1mLinking CXX executable vmap_main[0m
+[ 93%] Built target vmap_node
+[ 93%] Built target vmap_main
+[ 96%] [32m[1mLinking CXX shared library libvloc_node.so[0m
+[ 96%] Built target vloc_node
+[100%] [32m[1mLinking CXX executable vloc_main[0m
+[100%] Built target vloc_main
+-- Install configuration: ""
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/libvloc_node.so
+-- Set runtime path of "/home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/libvloc_node.so" to ""
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/libvmap_node.so
+-- Set runtime path of "/home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/libvmap_node.so" to ""
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/fiducial_vlam/vloc_main
+-- Set runtime path of "/home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/fiducial_vlam/vloc_main" to ""
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/fiducial_vlam/vmap_main
+-- Set runtime path of "/home/sebastian/tello_ros_ws/src/install/fiducial_vlam/lib/fiducial_vlam/vmap_main" to ""
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cfg
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cfg/fiducial_marker_locations_basement.yaml
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cfg/Aruco Marker 6X6 250 IDs 01-12.pdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cfg/fiducial_marker_locations_office.yaml
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/pair_brix_launch.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/pair_shared_launch.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/sim_one_marker_launch.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/pair_xps_launch.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/sim_yz_plane_of_markers_launch.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/pair_box_pattern_b.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one.rviz
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one_gazebo.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/launch_two_gazebo.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/teleop_launch.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/pair_box_pattern.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/launch/launch_one.py
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/transform_with_covariance.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/fiducial_vlam
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/fiducial_vlam/fiducial_vlam.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/vmap_context.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/vloc_context.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/convert_util.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/observation.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/map.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/include/fiducial_math.hpp
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/environment/library_path.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/environment/library_path.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/ament_index/resource_index/package_run_dependencies/fiducial_vlam
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/ament_index/resource_index/parent_prefix_path/fiducial_vlam
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/environment/ament_prefix_path.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/environment/ament_prefix_path.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/environment/path.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/environment/path.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/local_setup.bash
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/local_setup.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/local_setup.zsh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/local_setup.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/package.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/ament_index/resource_index/packages/fiducial_vlam
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/ament_index/resource_index/rclcpp_components/fiducial_vlam
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vloc_nodeExport.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vloc_nodeExport-noconfig.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vmap_nodeExport.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/export_vmap_nodeExport-noconfig.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/fiducial_vlamConfig.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/cmake/fiducial_vlamConfig-version.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/fiducial_vlam/share/fiducial_vlam/package.xml

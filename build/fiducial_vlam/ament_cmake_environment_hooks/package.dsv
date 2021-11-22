@@ -1,0 +1,4 @@
+source;share/fiducial_vlam/local_setup.bash
+source;share/fiducial_vlam/local_setup.dsv
+source;share/fiducial_vlam/local_setup.sh
+source;share/fiducial_vlam/local_setup.zsh

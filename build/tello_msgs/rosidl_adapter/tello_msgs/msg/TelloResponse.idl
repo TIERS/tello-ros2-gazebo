@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tello_msgs/msg/TelloResponse.msg
+// generated code does not contain a copyright notice
+
+
+module tello_msgs {
+  module msg {
+    module TelloResponse_Constants {
+      const uint8 OK = 1;
+      const uint8 ERROR = 2;
+      const uint8 TIMEOUT = 3;
+    };
+    @verbatim (language="comment", text=
+      " Final response code:")
+    struct TelloResponse {
+      uint8 rc;
+
+      @verbatim (language="comment", text=
+        " Full text of the response:")
+      string str;
+    };
+  };
+};

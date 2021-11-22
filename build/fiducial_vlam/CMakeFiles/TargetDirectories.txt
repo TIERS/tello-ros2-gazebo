@@ -1,0 +1,13 @@
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/install.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/list_install_components.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/rebuild_cache.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/edit_cache.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/test.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/install/strip.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/vmap_main.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/vloc_main.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/install/local.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/vmap_node.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/vloc_node.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/fiducial_vlam_uninstall.dir
+/home/sebastian/tello_ros_ws/src/build/fiducial_vlam/CMakeFiles/uninstall.dir

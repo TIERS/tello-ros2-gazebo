@@ -1,0 +1,6 @@
+msg/Map.idl
+msg/Map.msg
+msg/Observation.idl
+msg/Observation.msg
+msg/Observations.idl
+msg/Observations.msg

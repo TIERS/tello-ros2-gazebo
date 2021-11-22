@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tello_msgs/srv/TelloAction.srv
+// generated code does not contain a copyright notice
+
+
+module tello_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Arbitrary Tello command:")
+    struct TelloAction_Request {
+      string cmd;
+    };
+    module TelloAction_Response_Constants {
+      const uint8 OK = 1;
+      const uint8 ERROR_NOT_CONNECTED = 2;
+      const uint8 ERROR_BUSY = 3;
+    };
+    @verbatim (language="comment", text=
+      " Initial response code:")
+    struct TelloAction_Response {
+      uint8 rc;
+    };
+  };
+};

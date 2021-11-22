@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fiducial_vlam_msgs/msg/Observations.msg
+// generated code does not contain a copyright notice
+
+#include "fiducial_vlam_msgs/msg/Observation.idl"
+#include "sensor_msgs/msg/CameraInfo.idl"
+#include "std_msgs/msg/Header.idl"
+
+module fiducial_vlam_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " An observation of several markers")
+    struct Observations {
+      @verbatim (language="comment", text=
+        " the header from the image")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " the CameraInfo for the camera that captured the image")
+      sensor_msgs::msg::CameraInfo camera_info;
+
+      @verbatim (language="comment", text=
+        " A list of locations of marker corners in the image")
+      sequence<fiducial_vlam_msgs::msg::Observation> observations;
+    };
+  };
+};

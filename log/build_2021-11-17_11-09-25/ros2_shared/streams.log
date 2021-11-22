@@ -1,0 +1,48 @@
+[0.073s] Invoking command in '/home/sebastian/tello_ros_ws/src/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/sebastian/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/sebastian/tello_ros_ws/src/install/ros2_shared
+[0.135s] -- The C compiler identification is GNU 9.3.0
+[0.190s] -- The CXX compiler identification is GNU 9.3.0
+[0.196s] -- Check for working C compiler: /usr/bin/cc
+[0.266s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.266s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.439s] -- Detecting CXX compiler ABI info
+[0.516s] -- Detecting CXX compiler ABI info - done
+[0.527s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.556s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.556s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.816s] -- Configuring done
+[0.818s] -- Generating done
+[0.819s] -- Build files have been written to: /home/sebastian/tello_ros_ws/src/build/ros2_shared
+[0.823s] Invoked command in '/home/sebastian/tello_ros_ws/src/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/sebastian/tello_ros_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/sebastian/tello_ros_ws/src/install/ros2_shared
+[0.826s] Invoking command in '/home/sebastian/tello_ros_ws/src/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sebastian/tello_ros_ws/src/build/ros2_shared -- -j16 -l16
+[0.873s] Invoked command in '/home/sebastian/tello_ros_ws/src/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/sebastian/tello_ros_ws/src/build/ros2_shared -- -j16 -l16
+[0.929s] Invoking command in '/home/sebastian/tello_ros_ws/src/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sebastian/tello_ros_ws/src/build/ros2_shared
+[0.942s] -- Install configuration: ""
+[0.942s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/include
+[0.942s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/include/ros2_shared
+[0.943s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[0.943s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[0.943s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[0.943s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[0.943s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[0.944s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[0.944s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[0.944s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/path.sh
+[0.944s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[0.945s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.bash
+[0.945s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.sh
+[0.945s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[0.945s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[0.945s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/package.dsv
+[0.945s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[0.945s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.946s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[0.946s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[0.946s] -- Installing: /home/sebastian/tello_ros_ws/src/install/ros2_shared/share/ros2_shared/package.xml
+[0.950s] Invoked command in '/home/sebastian/tello_ros_ws/src/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/sebastian/tello_ros_ws/src/build/ros2_shared

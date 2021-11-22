@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fiducial_vlam_msgs/msg/Map.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseWithCovariance.idl"
+#include "std_msgs/msg/Header.idl"
+
+module fiducial_vlam_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " A list of the markers in the environment")
+    struct Map {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Length in meters of a side of all markers")
+      double marker_length;
+
+      @verbatim (language="comment", text=
+        " id and pose of the markers")
+      sequence<int32> fixed_flags;
+
+      sequence<int32> ids;
+
+      sequence<geometry_msgs::msg::PoseWithCovariance> poses;
+    };
+  };
+};

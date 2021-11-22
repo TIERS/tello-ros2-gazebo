@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -Wno-deprecated-declarations   CMakeFiles/tello_emulator.dir/src/tello_emulator.cpp.o  -o tello_emulator 

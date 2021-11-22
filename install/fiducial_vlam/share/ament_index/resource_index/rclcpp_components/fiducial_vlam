@@ -1,0 +1,2 @@
+fiducial_vlam::VlocNode;lib/libvloc_node.so
+fiducial_vlam::VmapNode;lib/libvmap_node.so

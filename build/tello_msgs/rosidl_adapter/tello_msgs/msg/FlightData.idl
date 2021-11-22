@@ -1,0 +1,113 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from tello_msgs/msg/FlightData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module tello_msgs {
+  module msg {
+    module FlightData_Constants {
+      const uint8 SDK_UNKNOWN = 0;
+      const uint8 SDK_1_3 = 1;
+      const uint8 SDK_2_0 = 2;
+    };
+    struct FlightData {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "######" "\n"
+        " Raw string" "\n"
+        "######")
+      string raw;
+
+      uint8 sdk;
+
+      @verbatim (language="comment", text=
+        "######" "\n"
+        " SDK 1.3+ fields" "\n"
+        "######" "\n"
+        " pitch in degrees")
+      int32 pitch;
+
+      @verbatim (language="comment", text=
+        " roll in degrees")
+      int32 roll;
+
+      @verbatim (language="comment", text=
+        " yaw in degrees relative to startup orientation")
+      int32 yaw;
+
+      @verbatim (language="comment", text=
+        " x velocity in m/s, +forward")
+      int32 vgx;
+
+      @verbatim (language="comment", text=
+        " y velocity in m/s, +right")
+      int32 vgy;
+
+      @verbatim (language="comment", text=
+        " z velocity in m/s, +down")
+      int32 vgz;
+
+      @verbatim (language="comment", text=
+        " lowest temp in C")
+      int32 templ;
+
+      @verbatim (language="comment", text=
+        " highest temp in C")
+      int32 temph;
+
+      @verbatim (language="comment", text=
+        " time of flight distance in cm")
+      int32 tof;
+
+      @verbatim (language="comment", text=
+        " height in cm")
+      int32 h;
+
+      @verbatim (language="comment", text=
+        " battery %")
+      int32 bat;
+
+      @verbatim (language="comment", text=
+        " barometric altitude in m")
+      float baro;
+
+      @verbatim (language="comment", text=
+        " time used by motor in seconds")
+      int32 time;
+
+      @verbatim (language="comment", text=
+        " Acceleration includes gravity" "\n"
+        " x acceleration in mm/s^2, +forward")
+      float agx;
+
+      @verbatim (language="comment", text=
+        " y acceleration in mm/s^2, +right")
+      float agy;
+
+      @verbatim (language="comment", text=
+        " z acceleration in mm/s^2, +down")
+      float agz;
+
+      @verbatim (language="comment", text=
+        "######" "\n"
+        " SDK 2.0+ fields" "\n"
+        "######" "\n"
+        " mission pad id, or -1 if not found")
+      int32 mid;
+
+      @verbatim (language="comment", text=
+        " x coord relative to mission pad in cm, or 0 if not found")
+      int32 x;
+
+      @verbatim (language="comment", text=
+        " y coord relative to mission pad in cm, or 0 if not found")
+      int32 y;
+
+      @verbatim (language="comment", text=
+        " z coord relative to mission pad in cm, or 0 if not found")
+      int32 z;
+    };
+  };
+};

@@ -1,0 +1,216 @@
+[0.018s] Invoking command in '/home/sebastian/tello_ros_ws/src/build/tello_gazebo': AMENT_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:/home/sebastian/tello_ros_ws/install/fiducial_vlam:/home/sebastian/tello_ros_ws/install/fiducial_vlam_msgs:/home/sebastian/tello_ros_ws/install/tello_gazebo:/home/sebastian/tello_ros_ws/install/tello_driver:/home/sebastian/tello_ros_ws/install/tello_msgs:/home/sebastian/tello_ros_ws/install/tello_description:/home/sebastian/tello_ros_ws/install/ros2_shared:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sebastian/tello_ros_ws/src/tello_ros/tello_gazebo -DCMAKE_INSTALL_PREFIX=/home/sebastian/tello_ros_ws/src/install/tello_gazebo
+[0.071s] -- The C compiler identification is GNU 9.3.0
+[0.127s] -- The CXX compiler identification is GNU 9.3.0
+[0.132s] -- Check for working C compiler: /usr/bin/cc
+[0.203s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.204s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.364s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.452s] -- Detecting CXX compile features
+[0.452s] -- Detecting CXX compile features - done
+[0.454s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.479s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.479s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.692s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.695s] -- Checking for module 'bullet>=2.82'
+[0.712s] --   Found bullet, version 2.88
+[0.846s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.908s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.972s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.003s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.323s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.360s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.365s] -- Looking for ignition-math6 -- found version 6.8.0
+[1.372s] -- Searching for dependencies of ignition-math6
+[1.374s] -- Looking for OGRE...
+[1.374s] -- OGRE_PREFIX_WATCH changed.
+[1.378s] -- Checking for module 'OGRE'
+[1.394s] --   Found OGRE, version 1.9.0
+[1.437s] -- Found Ogre Ghadamon (1.9.0)
+[1.450s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.459s] -- Looking for OGRE_Paging...
+[1.468s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.469s] -- Looking for OGRE_Terrain...
+[1.481s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.481s] -- Looking for OGRE_Property...
+[1.495s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.495s] -- Looking for OGRE_RTShaderSystem...
+[1.505s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.506s] -- Looking for OGRE_Volume...
+[1.518s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.518s] -- Looking for OGRE_Overlay...
+[1.528s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.756s] -- Looking for ignition-math6 -- found version 6.8.0
+[1.759s] -- Looking for ignition-transport8 -- found version 8.2.0
+[1.759s] -- Searching for dependencies of ignition-transport8
+[1.776s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.788s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.795s] -- Checking for module 'libzmq >= 4'
+[1.817s] --   Found libzmq , version 4.3.2
+[1.961s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.987s] -- Checking for module 'uuid'
+[2.115s] --   Found uuid, version 2.34.0
+[2.538s] -- Found UUID: TRUE  
+[2.560s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[2.561s] -- Searching for dependencies of ignition-msgs5
+[2.637s] -- Looking for ignition-math6 -- found version 6.8.0
+[2.669s] -- Checking for module 'tinyxml2'
+[2.808s] --   Found tinyxml2, version 6.2.0
+[3.254s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[3.273s] -- Looking for ignition-common3 -- found version 3.13.1
+[3.273s] -- Searching for dependencies of ignition-common3
+[3.274s] -- Looking for dlfcn.h - found
+[3.277s] -- Looking for libdl - found
+[3.280s] -- Found DL: TRUE  
+[3.313s] -- Searching for <ignition-common3> component [graphics]
+[3.336s] -- Looking for ignition-common3-graphics -- found version 3.13.1
+[3.337s] -- Searching for dependencies of ignition-common3-graphics
+[3.338s] -- Looking for ignition-math6 -- found version 6.8.0
+[3.357s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[3.358s] -- Searching for dependencies of ignition-fuel_tools4
+[4.011s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[4.053s] -- Checking for module 'jsoncpp'
+[4.200s] --   Found jsoncpp, version 1.7.4
+[4.615s] -- Found JSONCPP: TRUE  
+[4.649s] -- Checking for module 'libzip'
+[4.802s] --   Found libzip, version 1.5.1
+[5.204s] -- Found ZIP: TRUE  
+[5.205s] -- Looking for ignition-common3 -- found version 3.13.1
+[5.206s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[5.224s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[5.225s] -- Gazebo version: 11.5
+[5.229s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[5.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.423s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.069s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.209s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.843s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.856s] -- Found Threads: TRUE  
+[7.622s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.787s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.109s] -- Found tello_msgs: 0.1.0 (/home/sebastian/tello_ros_ws/src/install/tello_msgs/share/tello_msgs/cmake)
+[8.521s] -- Configuring done
+[8.600s] -- Generating done
+[8.604s] -- Build files have been written to: /home/sebastian/tello_ros_ws/src/build/tello_gazebo
+[8.661s] Invoked command in '/home/sebastian/tello_ros_ws/src/build/tello_gazebo' returned '0': AMENT_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:/home/sebastian/tello_ros_ws/install/fiducial_vlam:/home/sebastian/tello_ros_ws/install/fiducial_vlam_msgs:/home/sebastian/tello_ros_ws/install/tello_gazebo:/home/sebastian/tello_ros_ws/install/tello_driver:/home/sebastian/tello_ros_ws/install/tello_msgs:/home/sebastian/tello_ros_ws/install/tello_description:/home/sebastian/tello_ros_ws/install/ros2_shared:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sebastian/tello_ros_ws/src/tello_ros/tello_gazebo -DCMAKE_INSTALL_PREFIX=/home/sebastian/tello_ros_ws/src/install/tello_gazebo
+[8.662s] Invoking command in '/home/sebastian/tello_ros_ws/src/build/tello_gazebo': AMENT_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:/home/sebastian/tello_ros_ws/install/fiducial_vlam:/home/sebastian/tello_ros_ws/install/fiducial_vlam_msgs:/home/sebastian/tello_ros_ws/install/tello_gazebo:/home/sebastian/tello_ros_ws/install/tello_driver:/home/sebastian/tello_ros_ws/install/tello_msgs:/home/sebastian/tello_ros_ws/install/tello_description:/home/sebastian/tello_ros_ws/install/ros2_shared:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sebastian/tello_ros_ws/src/build/tello_gazebo -- -j16 -l16
+[8.927s] [35m[1mScanning dependencies of target TelloPlugin[0m
+[9.376s] [ 50%] [32mBuilding CXX object CMakeFiles/TelloPlugin.dir/src/tello_plugin.cpp.o[0m
+[30.197s] [100%] [32m[1mLinking CXX shared library libTelloPlugin.so[0m
+[30.887s] [100%] Built target TelloPlugin
+[30.901s] Invoked command in '/home/sebastian/tello_ros_ws/src/build/tello_gazebo' returned '0': AMENT_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:/home/sebastian/tello_ros_ws/install/fiducial_vlam:/home/sebastian/tello_ros_ws/install/fiducial_vlam_msgs:/home/sebastian/tello_ros_ws/install/tello_gazebo:/home/sebastian/tello_ros_ws/install/tello_driver:/home/sebastian/tello_ros_ws/install/tello_msgs:/home/sebastian/tello_ros_ws/install/tello_description:/home/sebastian/tello_ros_ws/install/ros2_shared:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sebastian/tello_ros_ws/src/build/tello_gazebo -- -j16 -l16
+[30.948s] Invoking command in '/home/sebastian/tello_ros_ws/src/build/tello_gazebo': AMENT_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:/home/sebastian/tello_ros_ws/install/fiducial_vlam:/home/sebastian/tello_ros_ws/install/fiducial_vlam_msgs:/home/sebastian/tello_ros_ws/install/tello_gazebo:/home/sebastian/tello_ros_ws/install/tello_driver:/home/sebastian/tello_ros_ws/install/tello_msgs:/home/sebastian/tello_ros_ws/install/tello_description:/home/sebastian/tello_ros_ws/install/ros2_shared:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sebastian/tello_ros_ws/src/build/tello_gazebo
+[30.957s] -- Install configuration: ""
+[30.957s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/lib/libTelloPlugin.so
+[30.960s] -- Set runtime path of "/home/sebastian/tello_ros_ws/src/install/tello_gazebo/lib/libTelloPlugin.so" to ""
+[30.960s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models
+[30.960s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5
+[30.961s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/model.sdf
+[30.961s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/model.config
+[30.961s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials
+[30.961s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/scripts
+[30.961s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/scripts/marker_5.material
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures/aruco_mark_5.svg
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures/aruco_mark_5.png
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/model.sdf
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/model.config
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/scripts
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/scripts/marker_4.material
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures/aruco_mark_4.svg
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures/aruco_mark_4.png
+[30.962s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/model.sdf
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/model.config
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/scripts
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/scripts/marker_0.material
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures/aruco_mark_0.svg
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures/aruco_mark_0.png
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3
+[30.963s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/model.sdf
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/model.config
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/scripts
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/scripts/marker_3.material
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures/aruco_mark_3.png
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures/aruco_mark_3.svg
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/model.sdf
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/model.config
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/scripts
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/scripts/marker_2.material
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures/aruco_mark_2.png
+[30.964s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures/aruco_mark_2.svg
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/model.sdf
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/model.config
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/scripts
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/scripts/marker_6.material
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures/aruco_mark_6.png
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures/aruco_mark_6.svg
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/model.sdf
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/model.config
+[30.965s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/scripts
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/scripts/marker_1.material
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures/aruco_mark_1.svg
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures/aruco_mark_1.png
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/model.sdf
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/model.config
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/scripts
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/scripts/marker_7.material
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures
+[30.966s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures/aruco_mark_7.svg
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures/aruco_mark_7.png
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds/f2.world
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds/build_world.py
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds/fiducial_map.yaml
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds/.fiducial_map.yaml.swp
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds/fiducial.world
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds/f2_map.yaml
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/worlds/simple.world
+[30.967s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/launch
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/launch/vlam_launch.py
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/launch/simple_launch.py
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/launch/.vlam_launch.py.swp
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/launch/__pycache__
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/launch/__pycache__/vlam_launch.cpython-38.pyc
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/lib/tello_gazebo/inject_entity.py
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/ament_index/resource_index/package_run_dependencies/tello_gazebo
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/ament_index/resource_index/parent_prefix_path/tello_gazebo
+[30.968s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.sh
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.dsv
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/environment/path.sh
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/environment/path.dsv
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/local_setup.bash
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/local_setup.sh
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/local_setup.zsh
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/local_setup.dsv
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/package.dsv
+[30.969s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/ament_index/resource_index/packages/tello_gazebo
+[30.970s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig.cmake
+[30.970s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig-version.cmake
+[30.970s] -- Installing: /home/sebastian/tello_ros_ws/src/install/tello_gazebo/share/tello_gazebo/package.xml
+[30.974s] Invoked command in '/home/sebastian/tello_ros_ws/src/build/tello_gazebo' returned '0': AMENT_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs:/home/sebastian/tello_ros_ws/install/fiducial_vlam:/home/sebastian/tello_ros_ws/install/fiducial_vlam_msgs:/home/sebastian/tello_ros_ws/install/tello_gazebo:/home/sebastian/tello_ros_ws/install/tello_driver:/home/sebastian/tello_ros_ws/install/tello_msgs:/home/sebastian/tello_ros_ws/install/tello_description:/home/sebastian/tello_ros_ws/install/ros2_shared:/opt/ros/foxy LD_LIBRARY_PATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sebastian/tello_ros_ws/src/install/tello_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sebastian/tello_ros_ws/src/build/tello_gazebo

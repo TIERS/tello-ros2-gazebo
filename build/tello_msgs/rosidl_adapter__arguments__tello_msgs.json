@@ -1,0 +1,8 @@
+{
+  "package_name": "tello_msgs",
+  "non_idl_tuples": [
+    "/home/sebastian/tello_ros_ws/src/tello_ros/tello_msgs:msg/FlightData.msg",
+    "/home/sebastian/tello_ros_ws/src/tello_ros/tello_msgs:msg/TelloResponse.msg",
+    "/home/sebastian/tello_ros_ws/src/tello_ros/tello_msgs:srv/TelloAction.srv"
+  ]
+}

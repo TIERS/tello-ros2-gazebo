@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_1.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_2.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_3.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_4.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_5.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_6.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_7.urdf
+-- creating rules for /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_8.urdf
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sebastian/tello_ros_ws/src/build/tello_description
+[35m[1mScanning dependencies of target generate_urdf_6[0m
+[35m[1mScanning dependencies of target generate_urdf_8[0m
+[35m[1mScanning dependencies of target generate_urdf[0m
+[35m[1mScanning dependencies of target generate_urdf_3[0m
+[35m[1mScanning dependencies of target generate_urdf_4[0m
+[35m[1mScanning dependencies of target generate_urdf_1[0m
+[35m[1mScanning dependencies of target generate_urdf_5[0m
+[35m[1mScanning dependencies of target generate_urdf_7[0m
+[35m[1mScanning dependencies of target generate_urdf_2[0m
+[ 11%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_8.urdf[0m
+[ 22%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_6.urdf[0m
+[ 33%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello.urdf[0m
+[ 44%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_5.urdf[0m
+[ 55%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_4.urdf[0m
+[ 77%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_3.urdf[0m
+[ 77%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_1.urdf[0m
+[ 88%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_7.urdf[0m
+[100%] [34m[1mGenerate /home/sebastian/tello_ros_ws/src/build/tello_description/urdf/tello_2.urdf[0m
+[100%] Built target generate_urdf_3
+[100%] Built target generate_urdf_8
+[100%] Built target generate_urdf_5
+[100%] Built target generate_urdf_1
+[100%] Built target generate_urdf_6
+[100%] Built target generate_urdf_7
+[100%] Built target generate_urdf_4
+[100%] Built target generate_urdf
+[100%] Built target generate_urdf_2
+-- Install configuration: ""
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_4.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_1.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_5.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_7.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_6.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_8.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_3.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/urdf/tello_2.urdf
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/environment/ament_prefix_path.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/environment/path.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/environment/path.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/local_setup.bash
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/local_setup.sh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/local_setup.zsh
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/local_setup.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/package.dsv
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/ament_index/resource_index/packages/tello_description
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake
+-- Installing: /home/sebastian/tello_ros_ws/src/install/tello_description/share/tello_description/package.xml
