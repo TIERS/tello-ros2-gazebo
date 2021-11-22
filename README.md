@@ -10,23 +10,23 @@
 
 ## Installation
 #### Install ROS2 Foxy
-https://docs.ros.org/ with the `ros-foxy-desktop` option.
+    https://docs.ros.org/ with the `ros-foxy-desktop` option.
 #### Make sure you have gazebo 
-sudo apt install gazebo11 libgazebo11 libgazebo11-dev
+    sudo apt install gazebo11 libgazebo11 libgazebo11-dev
 #### Add the following
-sudo apt install libasio-dev
-sudo apt install ros-foxy-cv-bridge ros-foxy-camera-calibration-parsers ros-foxy-gazebo-ros-pkgs
-sudo apt install libignition-rendering3 
-pip3 install transformations
+    sudo apt install libasio-dev
+    sudo apt install ros-foxy-cv-bridge ros-foxy-camera-calibration-parsers ros-foxy-gazebo-ros-pkgs
+    sudo apt install libignition-rendering3 
+    pip3 install transformations
 
 
 #### Build this package
-mkdir -p ~/tello_ros_ws/src
-cd ~/tello_ros_ws/src
-git clone https://github.com/TIERS/tello-ros2-gazebo.git
-cd ..
-source /opt/ros/foxy/setup.bash
-colcon build
+    mkdir -p ~/tello_ros_ws/src
+    cd ~/tello_ros_ws/src
+    git clone https://github.com/TIERS/tello-ros2-gazebo.git
+    cd ..
+    source /opt/ros/foxy/setup.bash
+    colcon build
 #### Run a teleop simulation
 
     cd ~/tello_ros_ws
