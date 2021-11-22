@@ -7,20 +7,26 @@
 * `inject_entity.py` is a script that will read an URDF (ROS) or SDF (Gazebo) file and spawn a model in a running instance of Gazebo
 * the built-in camera plugin is used to emulate the Gazebo forward-facing camera
 
-#### Python
 
-Add transformations.py v2018.9.5 to your Python environment.
+## Installation
+#### Install ROS2 Foxy
+https://docs.ros.org/ with the `ros-foxy-desktop` option.
+#### Make sure you have gazebo 
+sudo apt install gazebo11 libgazebo11 libgazebo11-dev
+#### Add the following
+sudo apt install libasio-dev
+sudo apt install ros-foxy-cv-bridge ros-foxy-camera-calibration-parsers ros-foxy-gazebo-ros-pkgs
+sudo apt install libignition-rendering3 
+pip3 install transformations
 
-#### Install Gazebo v9
 
-    sudo apt install gazebo11 libgazebo11 libgazebo11-dev
-    
-Run `gazebo` on the command line, fix any problems before continuing.
-
-#### Additional ROS packages
-
-    sudo apt install ros-foxy-gazebo-ros-pkgs ros-foxy-cv-bridge
-
+#### Build this package
+mkdir -p ~/tello_ros_ws/src
+cd ~/tello_ros_ws/src
+git clone https://github.com/TIERS/tello-ros2-gazebo.git
+cd ..
+source /opt/ros/foxy/setup.bash
+colcon build
 #### Run a teleop simulation
 
     cd ~/tello_ros_ws
@@ -37,15 +43,4 @@ If you run into the **No namespace found** error re-set `GAZEBO_MODEL_PATH`:
     export GAZEBO_MODEL_PATH=${PWD}/install/tello_gazebo/share/tello_gazebo/models
     source /usr/share/gazebo/setup.sh
     
-####  Integrate with `fiducial_vlam`
 
-    cd ~/tello_ros_ws/src
-    git clone https://github.com/ptrmu/fiducial_vlam.git
-    cd ..      
-    colcon build --event-handlers console_direct+
-    source install/local_setup.bash
-    ros2 launch tello_gazebo vlam_launch.py
-
-You'll see 2 drones appear facing a field of ArUco markers.
-Both drones will be localized against the markers -- run rviz2 to see the results.
-You can only control drone1.
