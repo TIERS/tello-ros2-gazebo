@@ -9,13 +9,13 @@
 
 
 ## Installation
-#### Install ROS2 Foxy
-    https://docs.ros.org/ with the `ros-foxy-desktop` option.
+#### Install ROS2 Galactic
+    https://docs.ros.org/ with the `ros-galactic-desktop` option.
 #### Make sure you have gazebo 
     sudo apt install gazebo11 libgazebo11 libgazebo11-dev
 #### Add the following
     sudo apt install libasio-dev
-    sudo apt install ros-foxy-cv-bridge ros-foxy-camera-calibration-parsers ros-foxy-gazebo-ros-pkgs
+    sudo apt install ros-galactic-cv-bridge ros-galactic-camera-calibration-parsers 
     sudo apt install libignition-rendering3 
     pip3 install transformations
 
@@ -25,7 +25,7 @@
     cd ~/tello_ros_ws/src
     git clone https://github.com/TIERS/tello-ros2-gazebo.git
     cd ..
-    source /opt/ros/foxy/setup.bash
+    source /opt/ros/galactic/setup.bash
     colcon build
 #### Run a teleop simulation
 
@@ -49,5 +49,11 @@ If you run into the **No namespace found** error re-set `GAZEBO_MODEL_PATH`:
     ros2 service call /drone1/tello_action tello_msgs/TelloAction "{cmd: 'land'}"
     ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r __ns:=/drone1
 
+# Important fix
+
+After you build the package with `colcon build` in the above instructions, edit the ```tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch.simple_launch.py``` as follows:
+
+1) Replace all instances of ```node_executable``` with ```executable```.
+2) Replace all instces of node_namespace with ```namespace```.
 
 
