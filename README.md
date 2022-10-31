@@ -51,7 +51,7 @@ If you run into the **No namespace found** error re-set `GAZEBO_MODEL_PATH`:
 
 # Important fix
 
-After you build the package with `colcon build` in the above instructions, edit the ```tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch.simple_launch.py``` as follows:
+After you build the package with `colcon build` in the above instructions, edit the ```tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch/simple_launch.py``` as follows:
 
 1) Replace all instances of ```node_executable``` with ```executable```.
 2) Replace all instces of node_namespace with ```namespace```.
