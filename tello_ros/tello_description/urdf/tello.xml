@@ -113,7 +113,11 @@
         <plugin name="ground_truth" filename="libgazebo_ros_p3d.so">
        <frame_name>map</frame_name>
        <body_name>base_link${suffix}</body_name>
-       <topic_name>odom</topic_name>
+       <ros>
+          <namespace>/${topic_ns}</namespace>
+          <!-- <remapping>odom:=p3d_test_deprecated</remapping> -->
+        </ros>
+       <!-- <topic_name>byebye</topic_name> -->
        <update_rate>30.0</update_rate>
       </plugin>
     </gazebo>
